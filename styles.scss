@@ -2,30 +2,23 @@
   color: $textColor;
   background-color: $backgroundColor;
 }
-
 #contact_info div {
   display: inline-block;
   margin: 20px;
 }
 
 #section1 {
-@include sectionColor(lemonchiffon, blue);
+@include sectionColor(blue, orange);
 }
 #section2{
-@include sectionColor(lemonchiffon, blue);
+@include sectionColor(yellow, red);
 }
 #section3{
-@include sectionColor(lemonchiffon, blue);
+@include sectionColor(purple, green);
 }
 #section4{
-@include sectionColor(lemonchiffon, blue);
+@include sectionColor(orange, blue);
 }
 #section5{
-@include sectionColor(lemonchiffon, blue);
-}
-
-#myNavbar {
-  & li{
-    text-shadow: 1px 1px white;
-  }
+@include sectionColor(green, purple);
 }

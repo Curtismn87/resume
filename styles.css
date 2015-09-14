@@ -3,26 +3,26 @@
   margin: 20px; }
 
 #section1 {
-  color: lemonchiffon;
-  background-color: blue; }
+  color: blue;
+  background-color: orange; }
 
 #section2 {
-  color: lemonchiffon;
-  background-color: blue; }
+  color: yellow;
+  background-color: red; }
 
 #section3 {
-  color: lemonchiffon;
-  background-color: blue; }
+  color: purple;
+  background-color: green; }
 
 #section4 {
-  color: lemonchiffon;
+  color: orange;
   background-color: blue; }
 
 #section5 {
-  color: lemonchiffon;
-  background-color: blue; }
+  color: green;
+  background-color: purple; }
 
-#myNavbar li {
-  text-shadow: 1px 1px white; }
+
+
 
 /*# sourceMappingURL=styles.css.map */
