@@ -7,18 +7,6 @@
   margin: 20px;
 }
 
-#section1 {
-@include sectionColor(blue, orange);
-}
-#section2{
-@include sectionColor(yellow, red);
-}
-#section3{
-@include sectionColor(purple, green);
-}
-#section4{
+#section1 #section2 #section3 #section4 #section5{
 @include sectionColor(orange, blue);
-}
-#section5{
-@include sectionColor(green, purple);
 }

@@ -2,27 +2,8 @@
   display: inline-block;
   margin: 20px; }
 
-#section1 {
-  color: blue;
-  background-color: orange; }
-
-#section2 {
-  color: yellow;
-  background-color: red; }
-
-#section3 {
-  color: purple;
-  background-color: green; }
-
-#section4 {
+#section1, #section2, #section3, #section4, #section5{
   color: orange;
   background-color: blue; }
-
-#section5 {
-  color: green;
-  background-color: purple; }
-
-
-
 
 /*# sourceMappingURL=styles.css.map */
