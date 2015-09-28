@@ -7,6 +7,17 @@
   margin: 20px;
 }
 
-#section1 #section2 #section3 #section4 #section5{
-@include sectionColor(orange, blue);
+#section1, #section2, #section3, #section4, #section5{
+@include sectionColor(#061539, #7887AB);
+}
+
+#section5 p, #section5 h3{
+  background: rgba(120, 135, 171, .8);
+  padding: 0px;
+  margin: 0px;
+}
+
+img{
+  height: auto;
+  width: auto;
 }
