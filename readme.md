@@ -20,8 +20,6 @@
 
 Personal websites from some previous WDI grads:
 
-* http://www.parishyun.com/
-* http://teaholoves.me/
 * http://britt.is/
 * http://raleighdaniel.com/
 * http://jlappano.github.io/
@@ -60,4 +58,3 @@ Bonus!
 
 - Use a [color function](http://sass-lang.com/documentation/Sass/Script/Functions.html): `darken`, `lighten`, etc.
 - Use a function to create 3d effects, like https://jesse.sh/makes-3d-buttons-with-sass/
-
