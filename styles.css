@@ -69,11 +69,14 @@ background-image: url("images/Concentration.png");
 #crudProject{
 background-image: url("images/Where's my Money.png");
 }
+.individualProjectDiv:hover {
+  background-size: 0 0;
+}
 .contactInfo {
   color: black;
   margin:auto;
   padding: 10px;
-  position: fixed;
+  position: absolute;
   border-style: solid;
   border-radius: 10%;
 }
@@ -93,7 +96,7 @@ background-image: url("images/Where's my Money.png");
   .contactInfo {
     color: black;
     display: block;
-    position: relative;
+    position: absolute;
     padding: 1%;
     border-style: none;
     border-radius: 10%;
