@@ -12,14 +12,14 @@ body{
   margin: 0 auto;
   position: relative;
 }
-.introQuote,.introQuote p{
+/*.introQuote,.introQuote p{
   width: 50%;
   margin: 0 auto;
   color: blue;
 }
 .quoteLetter{
   color: black;
-}
+}*/
 .introductionInfo h1{
   color: #111;
   font-family: 'Helvetica Neue', sans-serif;
@@ -75,7 +75,6 @@ background-image: url("images/Concentration.png");
 #crudProject{
 background-image: url("images/Where's my Money.png");
 }
-
 .contactInfo {
   color: black;
   margin:auto;
@@ -83,4 +82,44 @@ background-image: url("images/Where's my Money.png");
   position: fixed;
   border-style: solid;
   border-radius: 10%;
+}
+
+@media (max-width: 800px) {
+  body{
+    display: inline;
+  }
+  .introductionInfo h1{
+    color: #111;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+  }
+  .contactInfo {
+    color: black;
+    display: inline;
+    /*margin:auto;*/
+    padding: 1%;
+    border-style: solid;
+    border-radius: 10%;
+  }
+  .individualProjectDiv{
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 1%;
+    border-style: dashed;
+  }
+  .individualProjectContent{
+    color: #04417B;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
