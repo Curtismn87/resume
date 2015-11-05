@@ -96,7 +96,7 @@ background-image: url("images/Where's my Money.png");
   .contactInfo {
     color: black;
     display: block;
-    position: absolute;
+    position: relative;
     padding: 1%;
     border-style: none;
     border-radius: 10%;
